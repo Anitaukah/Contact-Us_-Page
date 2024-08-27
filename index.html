@@ -11,48 +11,52 @@
 	</head>
 	<body>
 		
-
 		<!-- this is the main element -->
 		<main>
 			<div class="card-wrapper">
 
 				<!-- this is the container for the contact us page -->
 				<div class="card-container">
-
 					<!-- this is the left card -->
 					<section class="left-card">
-						<div class="card-details">
-
-							<h3>Let's discuss on something <span>cool</span> together </h3>
-
-							<div class="contact-details">
-								<div class="icons">
-									<img src="images\email-icon.svg" alt="email-icon" />
-
-									<div>
-										<p>NeetaDesign@gmail.com</p>
-									</div>
-								</div>
-								
-								<div class="icons">
-									<img src="images\phone-icon.svg" alt="phone-icon" />
-
-									<div>
-										<p>+123 456 789</p>
-									</div>
-								</div>
-
-								<div class="icons">
-									<img src="images\location-icon.svg" alt="location-icon" />
-
-									<div>
-										<p>123 Street 456 House.</p>
-									</div>
-								</div>
-								
+						
+						<div class="contact-details">
+							<div class="card-text">
+								<h4>Let's discuss <br>on something <span>cool</span> <br> together </h4>
 							</div>
 							
-							<div class="socials">
+
+							<div class="icons">
+								<div class="img-icon">
+									<img src="images\email-icon.svg" alt="email-icon" />
+								</div>
+								
+
+								<div>
+									<p>NeetaDesign@gmail.com</p>
+								</div>
+							</div>
+							
+							<div class="icons">
+								<img src="images\phone-icon.svg" alt="phone-icon" />
+
+								<div>
+									<p>+123 456 789</p>
+								</div>
+							</div>
+
+							<div class="icons">
+								<img src="images\location-icon.svg" alt="location-icon" />
+
+								<div>
+									<p>123 Street 456 House.</p>
+								</div>
+							</div>
+							
+						</div>
+						
+
+						<div class="socials">
 							<a href="#">
 								<img src="images\facebook-icon.svg" alt="facebook-icon">
 							</a>
@@ -64,7 +68,6 @@
 							<a href="#">
 								<img src="images\twitter-icon.svg" alt="twitter-icon">
 							</a>
-							<div>
 						<div>
 
 					</section>
@@ -72,27 +75,40 @@
 					<!-- this is the right card -->
 					<section class="right-card">
 						<div class="card-info">
-							
 							<h6>I'm interested in...</h6>
-							<form action="">
-								<h1>Send Message</h1>
-								<div class="input-field">
-									<input type="text" id="fulname" name="fulname" placeholder="Full Name">
-									<input type="email" id="email" name="email" placeholder="Email">
-									<input type="text" id="message" name="message" placeholder="Type your Message">
-									<input type="button" value="Send">
-								</div>
-							</form>
+							
+							<div class="select-btn">
+								
+								<button>UI/UX design</button>
+								<button>Web design</button>
+								<button>Graphic design</button>
+								<button>Design system</button>
+								<button>Other</button>
+							</div>
+
+							<section class="contact-form">
+
+								<form action="//formspree.io/f/mnnawdzp" method="POST">
+									<div class="input-box">
+										<input type="text" id="fulname" name="Full Name" placeholder="Your name" required="required">
+									</div>
+									<div class="input-box"><input type="email" id="email" name="Email" placeholder="Your email" required="required"></div>
+									<div class="input-box"><input type="text" id="message" name="comment" placeholder="Add Your Comment" required="required"></div>
+									
+									<button type="submit"><img src="images\telegram-icon.svg" alt="telegram-icon"> Send Message 
+									</button>
+									
+								</form>
+							</section>
 
 						</div>
 
-					
 					</section>
 				</div>
 			</div>
 			
 		</main>
 		<!-- this is the footer element -->
-		<footer></footer>
+		<!-- <footer>Level 1 Project built by Anita Ukah</footer> -->
 	</body>
 </html>
